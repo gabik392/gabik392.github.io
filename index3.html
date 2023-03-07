@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/ico" href="hotel.png"> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <title>Christian Resebolag</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <a target="_blank" href="hotel.png">
+            <img src="hotel.png" alt="hotel" style="width:120px"></a>
+
+            <nav>
+                <ul>
+                    <nav class="topnav">
+                        <a href="./index.html">HemSida</a>
+                        <a href="./index2.html">Erbjudande</a>
+                        <a class="active" href="./index3.html">BokningSida</a>
+                        <a href="./index4.html">Kontakta Oss</a>
+                      
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <article>
+                <h3>Boka din resa nedan.</h3>
+                <p>Skriv in stället du vill boka din hotel. Skriv ner datumet för när du vill åka och skriv ner antalrumen du vill ha, och välj nedan om du vill vara i B&B, Hotel eller Vandrarhem. Till slut skriv in din PersonNummer för mer rabbat i framtiden.</p>
+            </article>
+            <article class="ex1">
+                <div class = "ex2">
+                <form>
+                    <label>Vart ska du åka?</label>
+                    <input type="text" name="plats" placeholder="Ställe.." required>
+                
+                    <label>När ska du åka?</label>
+                    <input type="date" name="Datum" placeholder="mm/dd/yyyy" required>
+
+                    <label>Skriv in din PersonNummer</label>
+                    <input type="text" name="personNR" placeholder="12 eller 10 siffror.." required>
+
+                    <label for="antalrum">Vart vill du vara?</label>
+                    <select>
+                        <option value="plats">Välj plats</option>
+                        <option value="plats">B&B</option>
+                        <option value="plats">Hotel</option>
+                        <option value="plats">Vandrarhem</option>
+                    </select> 
+                    <label for="antalpers">Antal Personer</label>
+                    <select>
+                        <option value="antalPers">Välj antal personer</option>
+                        <option value="antalpers">1</option>
+                        <option value="antalpers">2</option>
+                        <option value="antalpers">3</option>
+                        <option value="antalpers">4</option>
+                        <option value="antalpers">5</option>
+                        <option value="antalpers">6</option>
+                        <option value="antalpers">7</option>
+                        <option value="antalpers">8</option>
+                        <option value="antalpers">9</option>
+                    </select> 
+                    <input type="submit" value="Submit"> 
+                </div>        
+            </article>
+
+        </section>
+
+        <footer>
+            &copy; Copyright 2022
+        </footer>
+    </body>
+</html>

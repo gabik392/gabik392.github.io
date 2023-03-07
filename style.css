@@ -1,0 +1,199 @@
+*
+{
+    font-family: Arial, verdana, sans-serif;
+    color: #2b2724;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 77%;
+    margin: 0 auto;
+}
+body.ex1
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+section
+{
+    overflow: auto;
+
+}
+
+
+nav, #feature, footer
+{
+    margin: 1%;
+}
+
+.column1, .column2
+{
+    width: 47%;
+    height: 32%;
+    float: left;
+    margin: 1%;
+}
+
+.column3
+{
+    margin-right: 0%;
+}
+
+li
+{
+    display: inline;
+    margin: 0.5em;
+}
+
+footer
+{
+    background-color: #f5cb8d;
+    padding: 0.5em 0;
+    float: left;
+}
+footer.ex1
+{
+    background-color: #000000;
+    padding: 0.5em 0;
+    float: left;
+    -webkit-text-fill-color: #ffffff;
+}
+
+#feature, article
+{
+    height: 8em;
+    margin-bottom: 1em;
+    background-color: #f5cb8d
+}
+
+article 
+{
+    border-style: solid
+}
+
+body {
+    background-image: url('resa.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+
+  
+  .topnav a {
+    float: center;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #d8a962;
+    border-radius: 30px;
+  }
+  
+  .topnav a:hover {
+    background-color: #323130;
+    color: rgb(255, 255, 255);
+  }
+  
+  .topnav a.active {
+    background-color:rgb(0, 0, 0);
+    color: white;
+  }
+
+  img.ex1 {
+    border-radius: 15px;
+    padding: 7px;
+    width: 220px;
+    position:relative;
+  }
+  
+  img:hover.ex1 {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  article.ex1
+  {
+    height: auto;
+    margin-bottom: 1em;
+    background-color: #ffffff;
+  }
+  article.ex1
+  {
+    border-style: solid;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  div.ex4 {
+    background-color: #ffffff;
+    width: 210px;
+    height: 210px;
+    float: left;
+    margin: 15px;
+    overflow: relative;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+  
+  div.ex2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;;
+  }
+
+  input[type=submit] {
+    width: 50%;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #797979;
+  }
+
+  textarea {
+    resize: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+  }
+  div.ex3 {
+    width: 650px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    background-color: #f2f2f2;
+  }
+  
+
